@@ -1,0 +1,39 @@
+body { font-family: Georgia, serif; background-color: #f4f1ea; color: #222; }
+h1, h2, h3 { font-family: "Arial Black", Arial, sans-serif; }
+header { background-color: #0047AB; color: #fff; }
+.nav-bar { background-color: #222; color: white; }
+.nav-bar a.current { background-color: #e0a526; color: white; }
+footer { background-color: #222; color: #ddd; }
+.sleeve { border: 4px solid #222; background-color: #fff; }
+.rza-fig { float: right; margin: 0; max-width: 100%; }
+.rza-fig img { display: block; width: 400px; max-width: 100%; height: auto; border: 4px solid #222; }
+.rza-fig figcaption { text-align: center; font-weight: bold; padding-top: 8px; }
+.sectionindex { border: 0; height: 1px; background-color: #222; margin: 40px 0; }
+.mainpageimg, .history { display: block; width: 100%; height: 250px; object-fit: contain; background-color: #fff; }
+.care-table { border: 4px solid #222; background-color: #fff; }
+.care-table th { background-color: #e0a526; padding: 16px; }
+.care-table th:last-child { background-color: #6b1d1d; color: #fff; }
+.care-table tr:nth-child(even) td { background-color: #f4f1ea; }
+.care-table td:first-child::before { content: "\2713  "; }
+.care-table td:last-child::before { content: "\2717  "; }
+.steps { display: flex; flex-wrap: wrap; gap: 16px; }  
+.step { flex: 1 1 200px; }                           
+.step { background-color: #fff; border: 4px solid #222; border-top: 8px solid #e0a526; padding: 16px; }
+.step summary { cursor: pointer; font-weight: bold; }
+.budget-list { list-style: none; padding: 0; }
+.budget-list li { padding: 12px 16px; }
+.budget-list li:nth-child(odd) { background-color: #fff; }          
+.budget-list li:not(:last-child) { border-bottom: 1px solid #ddd; } 
+.link-btn { display: inline-block; background-color: #222; color: #fff; text-decoration: none; }
+.link-btn:hover { background-color: #e0a526; color: #222; }         
+.link-btn:active { background-color: #6b1d1d; color: #fff; }
+@media (max-width: 600px) {
+    .step { flex-basis: 100%; }
+}
+.hide { color: #f4f1ea; }
+.cols { display: flex; flex-wrap: wrap; }
+.sample-link { display: block; position: relative; }
+.sample-link:hover img { opacity: 0.6; }
+.sample-link::after { content: "Listen to the sample on Spotify"; position: absolute; left: 0; right: 0; bottom: 0; padding: 12px; background-color: rgba(0, 0, 0, 0.8); color: #fff; text-align: center; font-weight: bold; opacity: 0; }
+.sample-link:hover::after { opacity: 1; }
+.song-link { color: #6b1d1d; font-weight: bold; }
