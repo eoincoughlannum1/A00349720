@@ -34,6 +34,6 @@ footer { background-color: #222; color: #ddd; }
 .cols { display: flex; flex-wrap: wrap; }
 .sample-link { display: block; position: relative; }
 .sample-link:hover img { opacity: 0.6; }
-.sample-link::after { content: "Listen to the sample on Spotify"; position: absolute; left: 0; right: 0; bottom: 0; padding: 12px; background-color: rgba(0, 0, 0, 0.8); color: #fff; text-align: center; font-weight: bold; opacity: 0; }
+.sample-link::after { content: "Listen to the sample on Spotify"; position: absolute; left: 0; right: 0; bottom: 0; padding: 12px; background-color: rgba(0, 0, 0, 0.8); color: #fff; text-align: center; font-weight:italic; opacity: 0; }
 .sample-link:hover::after { opacity: 1; }
 .song-link { color: #6b1d1d; font-weight: bold; }
